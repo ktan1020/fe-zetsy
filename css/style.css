@@ -1,7 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+h1 {
+	font-family: 'Times New Roman', serif;
+	font-size: 2.5em;
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -11,10 +14,46 @@ body {
 }
 
 .wrapper {
-	width: 960px;
+	width: 70%;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+h1, .necklace {
+	width:100%;
+	display: inline-block;
+}
+
+.necklace {
+	border: 0.3em solid rgb(159,171,166);
+}
+
+.logos {
+	width:100%;
+	display:inline-block;
+	-webkit-transition: border-color 2s ease-in-out;
+}
+
+.logos>img {
+	width: 23.5%;
+	border: 0.2em solid rgb(191 191 191);
+	-webkit-transition: border 1s ease-in-out;
+}
+
+footer {
+	text-align: right;
+	padding-top: 10px;
+	font-size: 80%;
+}
+
+h1, h2 {
+	color: rgb(116,126,122);
+}
+
+.logos>img:hover {
+	cursor: pointer;
+	border: 0.2em solid rgb(116,126,122);
 }
 
 /* Write all remaining styles here */
